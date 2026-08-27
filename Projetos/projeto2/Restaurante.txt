@@ -1,0 +1,29 @@
+Atividade Bootstrap:
+
+Crie um site de algum estabelecimento real 
+(Qualquer lugar) na qual contenha:
+
+Cabeçalho de Navegação
+Pagina Principal
+Pagina de Produtos ou Serviços
+Pagina de Contato 
+Rodapé
+
+Caso queira adicionar mais paginas fique a vontade , as obrigatórias
+estão listadas acima!
+
+
+Após a construção do site , link ele no seletor de Projetos
+card 2 , e suba no GitHub!.
+PRAZO: QUINTA FEIRA 17:15 NO GITHUB, NO MESMO REPOSITORIO SELETORDEPROJETOS
+ATENÇÃO: Você pode usar I.A para gerar conteúdo (Informações , imagens etc) , entretanto
+proibido utilização para gerar código (Sua nota será zerada!)
+Prefiro um site "feio cru" doque I.A MADE!. 
+
+
+
+ url('./images/ChatGPT\ Image\ 25\ de\ ago.\ de\ 2026\,\ 16_29_01.png'); background-repeat: no-repeat; background-size: cover;
+  background-position: center;" class="d-flex flex-column">
+
+
+  background-color: rgba(135, 23, 27);
