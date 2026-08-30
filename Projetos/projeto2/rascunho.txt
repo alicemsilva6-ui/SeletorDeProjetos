@@ -1,0 +1,6 @@
+
+          <div class="row" style="height: 20vh;">
+            <div class="col-6 d-flex align-items-center justify-content-center" style="background-color: black">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <img src="./images/naoconte.png"  alt="">
+              </div>

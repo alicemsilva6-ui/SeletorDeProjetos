@@ -13,12 +13,16 @@
       margin: 0;
       padding: 0;
     }
+    #gridCheck{
+      background-color:rgba(64, 2, 6) ;
+    }
   </style>
 </head>
+<!-- CORRIGIR (duvidas na parte de baixo) -->
 
 <body>
 
-  <div style="min-height: 100vh;" class="d-flex flex-column">
+  <div style="min-height: 100vh; width: 100%;" class="d-flex flex-column">
 
     <header style="min-height: 18vh;" class="d-flex flex-column justify-content-center align-items-center">
 
@@ -97,58 +101,74 @@
       <section id="pagina1" style="min-height: 110vh;font-family: 'Times New Roman', Times, serif;
         color: white; background-color: rgb(0, 0, 0);">
         <div class="container">
-          <div class="row">
-            <div class="col-6" style="display: flex;flex-direction: column; justify-content: right; margin-top: 35px;">
-              <p><h4 style="color: darkred;"><b>REGRAS PARA RESERVAR</b></h4>──────────────────────────────────────
+          <div class="row" style=" height: 90vh;">
+            <!-- Coluna esquerda -->
+            <div class="col-6"
+              style="display: flex;flex-direction: column; justify-content: right; margin-top: 35px; font-size: 17px;">
+              <div class="row">
+                <div style="display: flex; align-items: center; justify-content: center;">
+                  <img src="./images/resarva.png" alt="">
+                </div>
+              </div>
+              <p style="margin-top: 10px;">
+
                 <br>
 
-                Antes de solicitar sua mesa, há algumas coisas que você precisa saber. <br><br>
-
-                <b>01. O convite é pessoal.</b>
+                <b>01. O convite é pessoal.</b><br>
                 Reservas são destinadas exclusivamente ao convidado indicado. Não compartilhe seu convite sem
                 autorização. Algumas oportunidades não chegam duas vezes.
                 <br><br>
 
-                <b>02. O número de convidados é limitado.</b>
+                <b>02. O número de convidados é limitado.</b><br>
                 Cada mesa possui um número previamente determinado de lugares. Não serão adicionados convidados após a
                 confirmação. <br><br>
 
-                <b>03. Pontualidade é indispensável.</b>
+                <b>03. Pontualidade é indispensável.</b><br>
                 A cozinha começa a trabalhar no horário marcado. Após o início do jantar, não podemos garantir a mesma
                 experiência para aqueles que chegarem atrasados. <br><br>
 
-                <b>04. Discrição é parte da experiência.</b>
+                <b>04. Discrição é parte da experiência.</b><br>
                 Fotografias, gravações e transmissões durante o jantar não são permitidas. O que acontece dentro do
                 restaurante deve permanecer dentro dele. <br><br>
 
-                <b>05. O cardápio não é informado antecipadamente.</b>
-                Confie na nossa cozinha. Afinal, parte da experiência está 
+                <b>05. O cardápio não é informado antecipadamente.</b><br>
+                Confie na nossa cozinha. Afinal, parte da experiência está
                 justamente em não saber o que será servido. <br><br>
 
-                <b>06. Cancelamentos devem ser comunicados com antecedência.</b>
+                <b>06. Cancelamentos devem ser comunicados com antecedência.</b><br>
                 Uma mesa reservada não pode simplesmente permanecer vazia. Existem pessoas
                 esperando por ela. <br><br>
 
-                <b>07. Não faça perguntas sobre os outros convidados.</b>
+                <b>07. Não faça perguntas sobre os outros convidados.</b><br>
                 Cada pessoa possui seus próprios motivos para estar aqui. Recomendamos que os seus permaneçam apenas
                 seus. <br><br>
 
-                ────────────────────────────────────── <br>
 
-                
-              <br>
-
-                <h3 style="color: darkred;">Não conte a ninguém sobre O Banquete.</h3>
-
-                
               </p>
+              <div class="row">
+                <div class="d-flex align-items-center justify-content-center"> <img src="./images/naoconte.png" alt="">
+                </div>
+              </div>
             </div>
-            <div class="col-6" style="display: flex;flex-direction: column; justify-content: center;; margin-top: 40px; text-align: end;">
-              <img src="./images/07706ee8d8e8400ea89b628ac455709b.jpg" alt="" >
-              <br>
-              <br>
-              <br>
-              <h5 style="margin-top: 20px; "><a style="color:darkred;" href="#pagina2">Preencher Formulário de Reserva</a></h5>
+
+
+
+
+
+            <!-- Coluna direita -->
+            <div class="col-6" style="display: flex;flex-direction: column; justify-content: center; margin-top: 30px;">
+              <div style="margin-left: 8px;"><img src="./images/07706ee8d8e8400ea89b628ac455709b.png" alt=""></div>
+              <div class="row d-flex align-items-center justify-content-center">
+                <!-- botão pagina 2 -->
+                <div class="d-flex align-items-center justify-content-center">
+                  <div
+                    style="background-color:black; height: 80%; width: 70%; border: solid 3px rgba(64, 2, 6); color: rgb(201, 186, 166) ; margin-top: 40px; margin-left: 80px;"
+                    class="d-flex align-items-center justify-content-center">
+                    <a href="#pagina2" style="color:  rgb(201, 186, 166); text-decoration: none;"> SOLICITE O
+                      CONVITE</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -158,29 +178,95 @@
 
 
       <!-- formulário -->
-      <section id="pagina2">
+      <section id="pagina2" style="min-height: 100vh;font-family: 'Times New Roman', Times, serif;
+        color: rgb(201, 186, 166); background-color: black">
+        <div class="container-fluid">
+          <div class="row" style="height: 100vh;">
+            <!-- Imagem -->
+            <div class="col-4" style="background-color: black; height: 100%; margin: 0;padding: 0;">
+              <div>
+                <img src="./images/vinho.jpg" alt="">
+              </div>
+            </div>
+            <!-- Formulário -->
+            <div class="col-8" style="background-color: black;">
+              <!-- Linha titulo -->
+              <div class="row">
+                <div class="col d-flex align-items-center justify-content-center" style="margin-top: 30px;margin-bottom: 30px;">
 
+                  <img src="./images/Captura de tela 2026-08-30 160533.png" alt="">
+
+                </div>
+              </div>
+
+
+              <!-- Linha formulario -->
+              <div class="row">
+                <div class="col">
+                  <div style="margin-left: 30px;">
+                    <form class="row g-3" style="font-family: 'Times New Roman', Times, serif;">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">NOME COMPLETO:</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">TELEFONE: </label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                          placeholder="(XX) XXXXX-XXXX">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">E-MAIL:</label>
+                        <input type="email" class="form-control" id="inputAddress" placeholder="nome@gmail.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="data" class="form-label">SELECIONE A DATA:</label>
+                        <input type="date" class="form-control" id="data">
+                      </div>
+
+
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">Cidade:</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Selecione aqui...</option>
+                          <option>Rio de Janeiro</option>
+                          <option>São Paulo</option>
+                          <option>Brasília</option>
+                          <option>Belo Horizonte</option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck" >
+                            Concordo com os termos
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12 d-flex align-items-center justify-content-center" style="margin-top: 20px;">
+                        <button type="submit" class="btn btn-primary" style="color: rgb(201, 186, 166) ; background-color: black;
+                        border: 3px solid rgba(64, 2, 6); width: 200px;">Enviar Solicitação</button>
+                      </div>
+                    </form>
+                    <div class="d-flex align-items-center justify-content-center" style="margin-top:50px;">
+                      <img src="./images/retorno.png" height="200px" alt="">
+                      <p style="text-align: center;"></p>
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
 
 
       </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
-
 
 
 
@@ -200,7 +286,7 @@
               Rio de Janeiro / RJ — Brasil
             </p>
 
-            <p><b style="color: goldenrod;">Reserve:</b>
+            <p><b style="color: goldenrod;">Contato:</b>
               <br>
               <a style="color: white;"
                 href="https://mail.google.com/mail/u/0/#inbox?compose=new">carnedegaivota@gmail.com.</a>
@@ -237,20 +323,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
@@ -258,10 +330,21 @@
     const myCarouselElement = document.querySelector('#carouselExampleAutoplaying')
 
     const carousel = new bootstrap.Carousel(myCarouselElement, {
-      interval: 5000,
+      interval: 3000,
       touch: false
     })
   </script>
 </body>
 
 </html>
+
+
+
+<!-- DUVIDAS/ PEDIDOS DE CORREÇÃO 
+
+  Responsividade das imagens, como fazer com que elas fiquem embaixo do texto dependendo do
+  tamanho do texto (pedir para arrumar)
+  Principalmente no footer, mesmo problema em todas as páginas
+
+
+-->
